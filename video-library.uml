@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>63c89d77-45a6-4c1e-b603-50840bfece58.TABLE:video_library_2.public.movie</OriginalElement>
+  <nodes>
+    <node x="164.0" y="11.0">63c89d77-45a6-4c1e-b603-50840bfece58.TABLE:video_library_2.public.movie</node>
+    <node x="284.5" y="257.0">63c89d77-45a6-4c1e-b603-50840bfece58.TABLE:video_library_2.public.review</node>
+    <node x="93.5" y="268.0">63c89d77-45a6-4c1e-b603-50840bfece58.TABLE:video_library_2.public.movie_person</node>
+    <node x="364.0" y="0.0">63c89d77-45a6-4c1e-b603-50840bfece58.TABLE:video_library_2.public.users</node>
+    <node x="0.0" y="55.0">63c89d77-45a6-4c1e-b603-50840bfece58.TABLE:video_library_2.public.person</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="63c89d77-45a6-4c1e-b603-50840bfece58.TABLE:video_library_2.public.review" target="63c89d77-45a6-4c1e-b603-50840bfece58.TABLE:video_library_2.public.users" relationship="REFERENCES">
+      <point x="33.5" y="-70.5" />
+      <point x="385.0" y="232.0" />
+      <point x="449.0" y="232.0" />
+      <point x="0.0" y="103.5" />
+    </edge>
+    <edge source="63c89d77-45a6-4c1e-b603-50840bfece58.TABLE:video_library_2.public.movie_person" target="63c89d77-45a6-4c1e-b603-50840bfece58.TABLE:video_library_2.public.person" relationship="REFERENCES">
+      <point x="-34.75" y="-59.5" />
+      <point x="128.25" y="232.0" />
+      <point x="72.0" y="232.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="63c89d77-45a6-4c1e-b603-50840bfece58.TABLE:video_library_2.public.review" target="63c89d77-45a6-4c1e-b603-50840bfece58.TABLE:video_library_2.public.movie" relationship="REFERENCES">
+      <point x="-33.5" y="-70.5" />
+      <point x="318.0" y="232.0" />
+      <point x="254.0" y="232.0" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="63c89d77-45a6-4c1e-b603-50840bfece58.TABLE:video_library_2.public.movie_person" target="63c89d77-45a6-4c1e-b603-50840bfece58.TABLE:video_library_2.public.movie" relationship="REFERENCES">
+      <point x="34.75" y="-59.5" />
+      <point x="197.75" y="232.0" />
+      <point x="254.0" y="232.0" />
+      <point x="0.0" y="92.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="267.0" y="199.0" />
+  <SelectedNodes>
+    <node>63c89d77-45a6-4c1e-b603-50840bfece58.TABLE:video_library_2.public.movie</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Comments</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
